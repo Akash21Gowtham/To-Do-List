@@ -1,0 +1,207 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+/* Style for the header section */
+header {
+    background-color: #0c0e12; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+    border-bottom: 2px solid #060606; /* Light blue bottom border */
+}
+
+header h1 {
+    font-size: 2.5em; /* Large font size */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Font family */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Spacing between letters */
+}
+
+.container {
+    margin-top: 20px; /* Space between header and container */
+}
+
+/* Responsive header design */
+@media (max-width: 600px) {
+    header {
+        padding: 15px 0; /* Reduced vertical padding on small screens */
+    }
+
+    header h1 {
+        font-size: 2em; /* Smaller font size on small screens */
+    }
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #222;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+#app-name {
+    color: #ff5733; /* Bright orange */
+    text-decoration: none;
+}
+
+#app-name:hover {
+    color: #c70039; /* Darker red */
+}
+
+.app-description {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #ffbd69; /* Light orange */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #d98200; /* Darker orange */
+}
+
+.lists-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    margin-top: 20px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.list:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    background-color: #333;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-button {
+    background-color: #ff6f61; /* Coral */
+}
+
+.delete-button:hover {
+    background-color: #d64b40; /* Dark coral */
+}
+
+.credit {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}
+
+.credit a {
+    color: #ffbd69; /* Light orange */
+    text-decoration: underline;
+}
+
+.credit a:hover {
+    color: #d98200; /* Darker orange */
+}
+
+footer {
+    background-color: #090a0a;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #0e0f0f;
+}
+
+footer div {
+    margin-bottom: 10px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-icons a {
+    color: #6c757d; /* Light gray */
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #f8f9fa; /* Lighter gray */
+}
+
+@media (max-width: 600px) {
+    footer {
+        padding: 10px;
+    }
+
+    footer .social-icons a {
+        font-size: 20px;
+    }
+}

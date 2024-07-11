@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Include FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>TaskForge - To-Do App By Gowtham R</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the TaskMastery </h1>
+    </header>
+    <div class="container">
+        <h1><a href="#" id="app-name">TaskMastery</a> - To-Do List</h1>
+        <p class="app-description">Your personalized task management solution for efficient and productive days.</p>
+        <div class="input-container">
+            <input type="text" id="newTask" placeholder="Enter task..." aria-label="New Task">
+            <button onclick="addTask()" aria-label="Add Task">Add</button>
+        </div>
+        <div class="lists-container">
+            <div class="list" id="pendingTasks">
+                <h2>Pending Tasks</h2>
+                <ul id="pendingList"></ul>
+            </div>
+            <div class="list" id="completedTasks">
+                <h2>Completed Tasks</h2>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div>Designed by &#129505; Gowtham</div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/me/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+            <a href="https://github.com/Akash21Gowtham" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+            <a href="mailto:gowthamsajay701@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+            <a href="https://x.com/Gowthamr2022455" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
