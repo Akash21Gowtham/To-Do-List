@@ -64,11 +64,6 @@ Open a pull request.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-css
-Copy code
-
-Feel free to customize the content to fit your specific project needs and features.
-
 
 
 
